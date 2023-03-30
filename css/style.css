@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css");
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+.container{
+    height: 800px;
+}
+/* header */
+header{
+    background: url(../images/programmerback.png) no-repeat;
+    background-size: 100% 100%;
+}
+nav{
+    height: 100px;
+}
+.logo{
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+}
+.active{
+    background-color: white;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    -webkit-transition-duration:0.4s;
+    -webkit-transition-timing-function:ease;
+}
+.deactive{
+    background-color: transparent;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    -webkit-transition-duration:0.4s;
+    -webkit-transition-timing-function:ease;
+}
+/* first */
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 15%;
+    line-height: 50px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    padding: 30px;
+}
+.vibrate{
+    width: 50%;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+}
+/* introduce */
+.about{
+    height: 800px;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+}
+.about h1{
+    font-size: 50px;
+    text-align: left;
+    padding: 20px;
+}
+.about p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+}
+.bar-contact{
+    border: 4px solid;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bar-contact i{
+    transform: rotate(90deg) ;
+}
+.skill{
+    height: 800px;
+}
+.contact{
+    height: 800px;
+}
+
+@media(max-width: 576px){
+    .col-left,.col-right{
+        max-width: 100%;
+        flex: 0 0 100%;
+    } 
+}

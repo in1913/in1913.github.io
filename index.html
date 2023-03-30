@@ -1,3 +1,114 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GomGomGold's Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="h-100 header" id="home">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light deactive">
+            <a class="logo logo-sm logo-md" href="#">MyBlog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark homelink" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark aboutlink" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark skillslink" href="#skills">My Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark contactlink" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="first">
+            <div class="intro intro-md intro-sm">
+                <h1>I.Y.CHOI</h1>
+                <p>frontend & backend</p>
+            </div>
+            <img class="vibrate" src="images/programmericonsm.png" alt="" onclick="test()">
+        </div>
+    </header>
+    <div class="about" id="about">
+        <h1>about me</h1>
+                <p class="aboutp">
+                    안녕하세요? 저는 김포에서 프론트엔드 & 백엔드 프로그래밍을 배우고 있는 최인영입니다. <br>
+                    지금도 열심히 발전하는 중이니 많은 관심 부탁드립니다.
+                </p>
+                <div class="bar-contact border- border-dark rounded-pill btn-link btn p-3 m-5 text-dark">
+                    <i class="fa-solid fa-arrow-turn-up"></i> &nbsp;Contact
+                </div>
+        </div>
+    </div>
+    <div class="skill" id="skills">
+        <h1>My Skill</h1>
+        <div class="row">
+            <div class="col-4 col-md-6 imgbox web">
+                <img src="images/webpublishing.png" alt="webpublishing">
+                <p>web Publishing</p>
+                <div id="skill1" class="skills" data-width="90" data-background="#FF5A5A">html,css(90%)</div>
+            </div>
+            <div class="col-4 col-md-6 imgbox js">
+                <img src="images/js.png" alt="javascript">
+                <p>javaScript</p>
+                <div id="skill2" class="skills" data-width="85" data-background="#84B017">javascript(85%)</div>
+            </div>
+            <div class="col-4 col-md-6 imgbox java">
+                <img src="images/java.png" alt="java">
+                <p>java</p>
+                <div id="skill3" class="skills" data-width="95" data-background="#FF9801">java(95%)</div>
+            </div>
+            <div class="col-4 col-md-6 imgbox python">
+                <img src="images/python.png" alt="python">
+                <p>python</p>
+                <div id="skill4" class="skills" data-width="79" data-background="#004A94">python(79%)</div>
+            </div>
+            <div class="col-4 col-md-6 imgbox react">
+                <img src="images/react.png" alt="react">
+                <p>react</p>
+                <div id="skill5" class="skills" data-width="88" data-background="#5B5C6C">react(88%)</div>
+            </div>
+            <div class="col-4 col-md-6 imgbox docker">
+                <img src="images/docker.png" alt="docker">
+                <p>docker</p>
+                <div id="skill5" class="skills" data-width="88" data-background="#2496ED">docker(70%)</div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="myheight">
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-facebook-box-fill"></i>
+                <i class="ri-github-fill"></i>
+                <i class="ri-kakao-talk-fill"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/animate.min.js"></script>
+    <script src="js/skill.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
