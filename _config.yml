@@ -1,8 +1,10 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://in1913.github.io
-description:
+locale: 'ko-KR'
+name: "in1913"
+title: Gomgomgold's blog
+email: sbchzhdlt@naver.com
+url: https://in1913.github.io/
+description: "inyoung's blog"
 keywords: "your keywords, separated by commas"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
